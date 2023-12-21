@@ -1,0 +1,79 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>disable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\Apple.png" />
+    <None Remove="Assets\BarbedWire.png" />
+    <None Remove="Assets\beans.png" />
+    <None Remove="Assets\BlueGuy.png" />
+    <None Remove="Assets\Body.png" />
+    <None Remove="Assets\DarkBlue.png" />
+    <None Remove="Assets\DeadBody.png" />
+    <None Remove="Assets\DeadHead.png" />
+    <None Remove="Assets\Doge.png" />
+    <None Remove="Assets\Doge1.png" />
+    <None Remove="Assets\DroidSansMono.ttf" />
+    <None Remove="Assets\Empty.png" />
+    <None Remove="Assets\fart.mp3" />
+    <None Remove="Assets\Food.png" />
+    <None Remove="Assets\Fries.png" />
+    <None Remove="Assets\GameOver.wav" />
+    <None Remove="Assets\GameOver2.wav" />
+    <None Remove="Assets\GooglyEyedRock.jpg" />
+    <None Remove="Assets\GreenSquare.png" />
+    <None Remove="Assets\GreenSquare2.png" />
+    <None Remove="Assets\Head.png" />
+    <None Remove="Assets\icon.ico" />
+    <None Remove="Assets\MrBrown2.png" />
+    <None Remove="Assets\SadDoge.png" />
+    <None Remove="Assets\Skull.png" />
+    <None Remove="Assets\Skull2.png" />
+    <None Remove="Assets\SquareRock.jpg" />
+    <None Remove="Assets\TrollFace.png" />
+    <None Remove="Assets\VerySadDoge.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Apple.png" />
+    <Resource Include="Assets\BarbedWire.png" />
+    <Resource Include="Assets\beans.png" />
+    <Resource Include="Assets\BlueGuy.png" />
+    <Resource Include="Assets\DarkBlue.png" />
+    <Resource Include="Assets\Doge.png" />
+    <Resource Include="Assets\Doge1.png" />
+    <Content Include="Assets\GameOver.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="Assets\GameOver2.wav" />
+    <Resource Include="Assets\GooglyEyedRock.jpg" />
+    <Resource Include="Assets\GreenSquare.png" />
+    <Resource Include="Assets\GreenSquare2.png" />
+    <Resource Include="Assets\Skull2.png" />
+    <Resource Include="Assets\SquareRock.jpg" />
+    <Resource Include="SoundEffects\fart.mp3" />
+    <Resource Include="Assets\Fries.png" />
+    <Resource Include="Assets\MrBrown2.png" />
+    <Resource Include="Assets\SadDoge.png" />
+    <Resource Include="Assets\Skull.png" />
+    <Resource Include="Assets\TrollFace.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Body.png" />
+    <Resource Include="Assets\DeadBody.png" />
+    <Resource Include="Assets\DeadHead.png" />
+    <Resource Include="Assets\DroidSansMono.ttf" />
+    <Resource Include="Assets\Empty.png" />
+    <Resource Include="Assets\Food.png" />
+    <Resource Include="Assets\Head.png" />
+    <Resource Include="Assets\icon.ico" />
+    <Resource Include="Assets\VerySadDoge.png" />
+  </ItemGroup>
+
+</Project>
